@@ -1,3 +1,4 @@
+````sql
 select *
 from coviddeaths
 order by 3,4
@@ -181,3 +182,4 @@ Where 		dea.continent is not null
 Group by 	dea.location, dea.population
 order by 	Fully_vaccinated_percentage desc
 limit 20
+````
